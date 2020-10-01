@@ -94,11 +94,13 @@ class Chat(QtWidgets.QMainWindow, Ui_MainWindow):
                 pass
 
         
-
-
-if __name__ == "__main__":
-    
+def main():
     app = QtWidgets.QApplication(sys.argv)
     ui = Chat()
     ui.show()
     sys.exit(app.exec_())
+
+    
+if __name__ == "__main__":
+    main()
+
