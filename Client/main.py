@@ -1,10 +1,14 @@
-# Interface e Back-End Escrito e Codificado por PKAPA
-# Socket escrito e codificado por Meguinha
+# Interface e Escrita e por PKAPA {Emerson}
+# Socket escrito e codificado por Meguinha {Meguinha}
 # Chat v0.1
-from gui import Ui_MainWindow
+from Gui.gui import Ui_MainWindow
 from PyQt5 import QtCore, QtGui, QtWidgets
 from socket import *
 from threading import *
+import sys
+
+
+
 
 cSocket = socket(AF_INET, SOCK_STREAM)
 conexao = False
@@ -96,7 +100,7 @@ class Chat(QtWidgets.QMainWindow, Ui_MainWindow):
 
 
 if __name__ == "__main__":
-    import sys
+    
     app = QtWidgets.QApplication(sys.argv)
     ui = Chat()
     ui.show()
