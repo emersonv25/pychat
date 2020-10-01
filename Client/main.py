@@ -1,4 +1,4 @@
-# Interface e Escrita e por PKAPA {Emerson}
+# Interface e Escrita por PKAPA {Emerson}
 # Socket escrito e codificado por Meguinha {Meguinha}
 # Chat v0.1
 from Gui.gui import Ui_MainWindow
@@ -12,9 +12,6 @@ import sys
 
 cSocket = socket(AF_INET, SOCK_STREAM)
 conexao = False
-
-
-
 
 class Chat(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
