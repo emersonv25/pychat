@@ -1,4 +1,4 @@
-###@author emersonv25, matheus55391
-##O projeto consiste em um chat simples utilizando uma interface gráfica e um servidor de troca de dados feito com socket e udp.
+# emersonv25, matheus55391
+O projeto consiste em um chat simples utilizando uma interface gráfica e um servidor de troca de dados feito com socket e udp.
 
 Um dos nossos primeiros projetos juntos na faculdade.
