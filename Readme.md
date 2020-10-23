@@ -36,6 +36,6 @@ you can open another client and do the same procedure to connect to the server a
 ```
 
 ## Authors
-[@emersonv25](https://github.com/emersonv25)
+@emersonv25(https://github.com/emersonv25)
 
-[@Meguinha](https://github.com/matheus55391)
+@Meguinha(https://github.com/matheus55391)
